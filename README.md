@@ -1,3 +1,3 @@
 # js-platformer-react-rewrite  
   
-a small platformer game written in js, css and html fo demo purposes
+a react rewrite of the original platformer game written in js, css and html
