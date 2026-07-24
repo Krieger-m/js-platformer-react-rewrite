@@ -1,0 +1,57 @@
+
+
+.startScreen {
+  background-color: var(--section-bg-color);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 15px;
+  line-height: 2rem;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px;
+  color: #0a0a23;
+  font-size: 20px;
+  background-color: var(--greenish);
+  border-color: var(--greenish);
+  border-width: 3px;
+}
+
+.btn:hover {
+  background-color: #067a61;
+  color: #dddddd;
+  border-color: #067a61;
+}
+
+
+@media (min-width: 768px) {
+  .startScreen {
+    width: 60%;
+    max-width: 700px;
+  }
+
+}
